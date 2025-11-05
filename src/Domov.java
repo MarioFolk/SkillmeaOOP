@@ -7,8 +7,14 @@ public class Domov {
     int pocetPoschodi;
     boolean jeAlarmZapnuty;
 
-    public void vypocetCenyDomu(){
-        System.out.println(pocetOkien*800 + rozloha*840);
+
+
+
+
+
+
+    public void vypocetCenyDomu(int lukrativnaOblast, String menoRodiny){
+        System.out.println(lukrativnaOblast*(pocetOkien*800 + rozloha*840));
 
     }
 }
