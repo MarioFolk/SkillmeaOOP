@@ -3,19 +3,15 @@
 public class Main {
     public static void main(String[] args) {
 
-        Domov domNovakov = new Domov();
-        domNovakov.pocetOkien = 12;
-        domNovakov.pocetPoschodi = 3;
-        domNovakov.rozloha = 421.5f;
+        Domov domNovakov = new Domov(536f, 10, 3);
+        Domov domZajacov = new Domov(423f, 8, 2);
+        Domov domKralikov = new Domov(356f, 6, 4);
 
-        Domov domZajacov = new Domov();
-        domZajacov.pocetOkien = 24;
-        domZajacov.pocetPoschodi = 2;
-        domZajacov.rozloha = 853.6f;
 
         //System.out.println(domZajacov.rozloha + domNovakov.rozloha);
         float cenaDomuNovakov = domNovakov.vypocetCenyDomu(1, "Novakova");
         float cenaDomuZajacov = domZajacov.vypocetCenyDomu(3, "Zajacova");
-        System.out.println(cenaDomuZajacov + cenaDomuNovakov);
+        float cenaDomuKralikov = domKralikov.vypocetCenyDomu(2, "Kralikova");
+        System.out.println(cenaDomuZajacov + cenaDomuNovakov + cenaDomuKralikov);
     }
 }
