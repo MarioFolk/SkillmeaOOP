@@ -20,3 +20,4 @@ public class Domov {
         return vypocet;
     }
 }
+
