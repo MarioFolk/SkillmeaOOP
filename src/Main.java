@@ -14,8 +14,8 @@ public class Main {
         domZajacov.rozloha = 853.6f;
 
         //System.out.println(domZajacov.rozloha + domNovakov.rozloha);
-        domNovakov.vypocetCenyDomu(1, "Novakova");
-        domZajacov.vypocetCenyDomu(3, "Zajacova");
-
+        float cenaDomuNovakov = domNovakov.vypocetCenyDomu(1, "Novakova");
+        float cenaDomuZajacov = domZajacov.vypocetCenyDomu(3, "Zajacova");
+        System.out.println(cenaDomuZajacov + cenaDomuNovakov);
     }
 }

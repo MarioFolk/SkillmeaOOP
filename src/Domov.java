@@ -13,8 +13,9 @@ public class Domov {
 
 
 
-    public void vypocetCenyDomu(int lukrativnaOblast, String menoRodiny){
-        System.out.println(lukrativnaOblast*(pocetOkien*800 + rozloha*840));
-
+    public float vypocetCenyDomu(int lukrativnaOblast, String menoRodiny){
+        System.out.println(menoRodiny);
+        float vypocet = lukrativnaOblast*(pocetOkien*800 + rozloha*840);
+        return vypocet;
     }
 }
