@@ -1,4 +1,3 @@
-
 public class Domov {
 
     //Toto su vlastnosti
@@ -21,6 +20,16 @@ public class Domov {
         System.out.println(menoRodiny);
         float vypocet = lukrativnaOblast*(pocetOkien*800 + rozloha*840);
         return vypocet;
+    }
+
+    //Getter pre ziskanie dat v private fields
+    public int getPocetOkien(){
+        return pocetOkien;
+    }
+
+    //Setter pre ziskanie dat v private fields
+    public void setPocetOkien(int novyPocetOkien) {
+        pocetOkien = novyPocetOkien;
     }
 }
 

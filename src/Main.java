@@ -7,11 +7,15 @@ public class Main {
         Domov domZajacov = new Domov(423f, 8, 2);
         Domov domKralikov = new Domov(356f, 6, 4);
 
-
         //System.out.println(domZajacov.rozloha + domNovakov.rozloha);
         float cenaDomuNovakov = domNovakov.vypocetCenyDomu(1, "Novakova");
         float cenaDomuZajacov = domZajacov.vypocetCenyDomu(3, "Zajacova");
         float cenaDomuKralikov = domKralikov.vypocetCenyDomu(2, "Kralikova");
-        System.out.println(cenaDomuZajacov + cenaDomuNovakov + cenaDomuKralikov);
+
+        domNovakov.setPocetOkien(8);
+        int pocetOkienNovakov = domNovakov.getPocetOkien();
+        System.out.println(pocetOkienNovakov);
+
+        System.out.println(cenaDomuZajacov + cenaDomuNovakov);
     }
 }
