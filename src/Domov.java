@@ -27,7 +27,7 @@ public class Domov {
         return pocetOkien;
     }
 
-    //Setter pre ziskanie dat v private fields
+    //Setter pre prepis dat v private fields
     public void setPocetOkien(int novyPocetOkien) {
         pocetOkien = novyPocetOkien;
     }
