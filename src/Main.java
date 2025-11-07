@@ -3,7 +3,7 @@
 public class Main {
     public static void main(String[] args) {
 
-        //Vytvorenie novych objektov z tiedy Domov
+        /*Vytvorenie novych objektov z tiedy Domov
         Domov domNovakov = new Domov(536f, 10, 3);
         Domov domZajacov = new Domov(423f, 8, 2);
         Domov domKralikov = new Domov(356f, 6, 4);
@@ -29,6 +29,9 @@ public class Main {
         Obchod globus = new Obchod(3800f, 3, 23);
 
         float cenaKauflandu = kaufland.vypocetCenyDomu(2, "Kaufland");
-        System.out.println(cenaKauflandu);
+        System.out.println(cenaKauflandu);*/
+
+
+
     }
 }
