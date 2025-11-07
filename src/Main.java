@@ -24,5 +24,11 @@ public class Main {
         System.out.println(pocetOkienNovakov);
 
         System.out.println(cenaDomuZajacov + cenaDomuNovakov);
+
+        Obchod kaufland = new Obchod(2800f, 4, 25);
+        Obchod globus = new Obchod(3800f, 3, 23);
+
+        float cenaKauflandu = kaufland.vypocetCenyDomu(2, "Kaufland");
+        System.out.println(cenaKauflandu);
     }
 }
