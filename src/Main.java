@@ -31,7 +31,7 @@ public class Main {
         float cenaKauflandu = kaufland.vypocetCenyDomu(2, "Kaufland");
         System.out.println(cenaKauflandu);*/
 
-
-
+        Pes alik = new Pes("Nemecky ovciak", 12.3f, true, 3);
+        alik.vydajZvuk();
     }
 }

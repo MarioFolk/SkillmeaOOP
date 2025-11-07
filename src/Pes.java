@@ -10,4 +10,8 @@ public class Pes {
         this.jeSamec = jeSamec;
         this.pocetUlovenychMaciek = pocetUlovenychMaciek;
     }
+
+    public void vydajZvuk(){
+        System.out.println("Haf haf");
+    }
 }
