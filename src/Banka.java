@@ -1,0 +1,15 @@
+public class Banka {
+    private int roky;
+    private float pociatocnyVklad;
+    private float urokovaSadzba;
+    private float poplatky;
+    private float konecnaCiastka;
+
+    Banka(int roky, float pociatocnyVklad, float urokovaSdzba, float poplatky){
+        this.roky = roky;
+        this.pociatocnyVklad = pociatocnyVklad;
+        this.urokovaSadzba = urokovaSadzba;
+        this.poplatky = poplatky;
+    }
+}
+

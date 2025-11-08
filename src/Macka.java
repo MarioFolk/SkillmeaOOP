@@ -8,6 +8,7 @@ public class Macka extends Zviera{
         this.pocetUlovenychRyb = pocetUlovenychRyb;
     }
 
+    @Override
     public void vydajZvuk(){
         System.out.println("Mnau mnau");
     }
