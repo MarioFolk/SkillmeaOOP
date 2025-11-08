@@ -1,7 +1,4 @@
-public class Macka {
-    private String rasa;
-    private float hmotnost;
-    private boolean jeSamec;
+public class Macka extends Zviera{
     private int pocetUlovenychRyb;
 
     Macka(String rasa, float hmotnost, boolean jeSamec, int pocetUlovenychRyb) {
@@ -9,5 +6,9 @@ public class Macka {
         this.hmotnost = hmotnost;
         this.jeSamec = jeSamec;
         this.pocetUlovenychRyb = pocetUlovenychRyb;
+    }
+
+    public void vydajZvuk(){
+        System.out.println("Mnau mnau");
     }
 }
