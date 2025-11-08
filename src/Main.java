@@ -36,5 +36,9 @@ public class Main {
 
         Macka mourek = new Macka("Siamska macka", 6f, false, 2);
         mourek.vydajZvuk();*/
+
+        Banka mBank = new Banka(10, 1000, 1, 0);
+        float konecnyZostatok = mBank.vypocetSporiacehoUctu();
+        System.out.println(konecnyZostatok);
     }
 }
