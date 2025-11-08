@@ -33,5 +33,7 @@ public class Main {
 
         Pes alik = new Pes("Nemecky ovciak", 12.3f, true, 3);
         alik.vydajZvuk();
+
+        Macka mourek = new Macka("Siamska macka", 6f, false, 2);
     }
 }
